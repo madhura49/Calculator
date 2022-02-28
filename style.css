@@ -1,0 +1,56 @@
+.container{
+    text-align: center;
+    margin-top: 23px;
+}
+
+
+/* text-align - specifies the horizontal alignment of text in an element.Is used to position text at the left, center or right part of an element or justify it to fill it (like you see in newspapers).
+align-items - specifies the default alignment for items inside the flexible container.It is used for positioning elements in a flex-box */
+/* align-items:- aligns items along the vertical axis(items are kinda spread out, with equal space in between and on top and bottom of elements)
+align content:- aligns items on the center of vertical axis(kind of groups items together in the center) */
+
+table{
+    margin: auto;
+}
+
+/* You can set the margin property to auto to horizontally center the element within its container.The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. */
+
+/* WHEN TO USE MARGIN AUTO AND WHEN TO USE JUSTIFY CONTENT
+the auto margin applies only to the flex item and centers that one flex item within the container.
+justify content:- You are centering items from the container level. This code will center all items.
+
+Also, keep in mind, if you use both methods at the same time, margin: auto should prevail.
+
+But the most important difference, for practical purposes, may be the behavior when a flex item exceeds the size of the container. When this happens, you lose access to parts of the item when using the container-level code. The item disappears from the screen and is not accessible via scroll.
+To overcome this problem, use margin: auto for centering to work properly.
+*/
+
+h1{
+    font-size: 50px;
+}
+
+input{
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 20px;width: 390px;
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 65px
+}
+button{
+    border-radius: 20px;
+    font-size: 35px;
+    background-color: #f294a5;
+    width: 92px;
+    height: 75px;
+    border: 3px solid black;
+    margin: 3px;
+}
+.calculator{
+    display: inline-block;
+    background-color: #64335b;
+    border-radius: 35px;
+    padding: 23px;
+    border: 4px solid black;
+}
